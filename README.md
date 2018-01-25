@@ -27,4 +27,6 @@ Currently the three implementable classes are:
                      those appropriately (this will probably take me some time as I will have to include some sort of machine learning
                      or else store a large library of commonly used proper nouns) ```
     
+
+
 Additionally, I need to incorporate actual exception handling.  The current version only has empty catch blocks (a really bad and lazy practice, I know) so I need to go back through and handle any exceptions that may arise (e.g. there is no text copied to the clipboard, etc.).
