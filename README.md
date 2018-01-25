@@ -11,13 +11,13 @@ I chose to separate each type of case conversion implementation in its own class
 Personally, I like to have a shortcut set up for each of the implementation classes (run as an exe) and then create keyboard short-cuts to be able to quickly use them.  For instance, I have installed all three implementations as separate java exe apps on my desktop and have different keyboard shortcuts for each.  So when I need to use one of them, I simply copy a line of text to my system clipboard (CTRL + C), press the key combination for the desired shortcut (e.g. CTRL + ALT + U for converting everything to uppercase), and then I can paste the case-converted text where I need it.  Quick and easy.
 
 Currently the three implementable classes are:
-
+```
     - Upper --> CONVERTS ALL TEXT IN CLIPBOARD TO UPPERCASE; name = "TextCaseImplementation_Upper.java"
     
     - Lower --> converts all text in clipboard to lowercase; name = "TextCaseImplementation_Lower.java"
     
     - Title --> Converts All Text In Clipboard To Title Case; name = "TextCaseImplementation_Title.java"
-    
+```
   
   In future updates, I plan to have additional classes for:
     - CamelCase --> ConvertsAllTextInClipboardToCamelCase (similar to title case, but with all spaces and punctuation removed)
