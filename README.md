@@ -13,8 +13,11 @@ Personally, I like to have a shortcut set up for each of the implementation clas
 Currently the three implementable classes are:
 
     - Upper --> CONVERTS ALL TEXT IN CLIPBOARD TO UPPERCASE; name = "TextCaseImplementation_Upper.java"
+    
     - Lower --> converts all text in clipboard to lowercase; name = "TextCaseImplementation_Lower.java"
+    
     - Title --> Converts All Text In Clipboard To Title Case; name = "TextCaseImplementation_Title.java"
+    
   
   In future updates, I plan to have additional classes for:
     - CamelCase --> ConvertsAllTextInClipboardToCamelCase (similar to title case, but with all spaces and punctuation removed)
