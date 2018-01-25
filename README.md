@@ -1,5 +1,12 @@
 # utils
-Useful tools to help accomplish day-to-day tasks
+Useful tools to help accomplish day-to-day tasks.  For now, just text case conversion - I know there are tools out there already that do this, but my solution is more efficient because it directly accesses the system clip
+
+########################################################################################################################################
+#                                                                                                                                      #
+# Note: to install these apps on your local system, download the .zip file in the repository. It should contain everything you need to #  # install the applications on your system (except for the java runtime environment (jre), which you can download - the .exe should     # # check first to see if you have jre and if not take you to the download page). This should work for most windows versions (sorry,     # # no support yet for Linux or Mac). But please leave a comment if something doesn't work right and I will do my best to fix it.  This  # # is my first attempt at actually deploying a java application, so I'm sure there will be issues.  :-)                                 #
+#                                                                                                                                      #
+########################################################################################################################################
+
 
 This repository contains a java class called "TextCase.java" which contains the conversion methods used in other classes, as well as three (as of 1/18/2018) classes containing main methods which are used to run different types of text case conversions.
 
@@ -13,7 +20,7 @@ Currently the three implementable classes are:
     - Title --> Converts All Text In Clipboard To Title Case; name = "TextCaseImplementation_Title.java"
   
   In future updates, I plan to have additional classes for:
-    - CamelCase --> ConvertsAllTextInClipboardToCamelCase (with implementations for including spaces between each word and without)
+    - CamelCase --> ConvertsAllTextInClipboardToCamelCase (similar to title case, but with all spaces and punctuation removed)
     - Sentence  --> Converts all text in clipboard so that only the first letter in the first word of every sentence is capitalized.
     - Proper    --> Similar to the above "sentence" case conversion with the addition of recognizing proper nouns and capitalizing those appropriately (this will probably take me some time as I will wither have to include some sort of machine learning, or else store a large library of commonly used proper nouns)
     
