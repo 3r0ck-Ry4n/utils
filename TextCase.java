@@ -62,7 +62,9 @@ public class TextCase {
 			for (char c : input.toCharArray()) {
 				if (Character.isSpaceChar(c)) {
 					nextTitleCase = true;
-				} else if (nextTitleCase) {
+				} 
+				
+				else if (nextTitleCase) {
 					c = Character.toTitleCase(c);
 					nextTitleCase = false;
 				}
