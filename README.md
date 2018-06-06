@@ -4,7 +4,7 @@ Useful tools to help accomplish day-to-day tasks.  For now, just text case conve
 # Note:
 To install these apps on your local system, download the .zip file in the repository. It should contain everything you need to install the applications on your system (except for the java runtime environment (jre), which you can download - the .exe should check first to see if you have jre and if not take you to the download page). This should work for most windows versions (sorry, no support yet for Linux or Mac). But please leave a comment if something doesn't work right and I will do my best to fix it. This is my first attempt at actually deploying a java application, so I'm sure there will be issues.  :-)
 
-
+#About
 This repository contains a java class called "TextCase.java" which contains the conversion methods used in other classes, as well as three (as of 1/18/2018) classes containing main methods which are used to run different types of text case conversions.
 
 I chose to separate each type of case conversion implementation in its own class with a main method so that each instance can be run independently. Theses classes were designed to run in the background and without any user input (other than copying something to the clip-board and running the desired class to perform the text case conversion).  
